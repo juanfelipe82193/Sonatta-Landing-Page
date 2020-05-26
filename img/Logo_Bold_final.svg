@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1406px" height="1663px" viewBox="0 0 1406 1663" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Logo_Bold_final</title>
+    <defs>
+        <path d="M422.928932,0.201010127 L422.929934,60.6056097 C422.9296,60.6056097 422.929266,60.6056097 422.928932,60.6056097 C359.29909,60.6056097 304.564995,114.668914 280.281036,192.199924 L143.576829,192.199924 C119.292869,114.668914 64.5587744,60.6056097 0.928932188,60.6056097 L0.928932188,0.201010127 L422.928932,0.201010127 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Logo_Bold_final" transform="translate(-12.000000, -2.000000)">
+            <g id="Logo_Bold" transform="translate(1.000000, 277.798990)">
+                <g id="Logo">
+                    <g id="Body" stroke="#FFFFFF" stroke-linecap="round" stroke-width="140">
+                        <line x1="538.824935" y1="1243.4045" x2="1359.17507" y2="691.961586" id="Line-2" fill="#FFFFFF" transform="translate(949.175065, 967.961586) rotate(-11.090835) translate(-949.175065, -967.961586) "></line>
+                        <line x1="347" y1="912.24013" x2="1081" y2="450.24013" id="Line-2-Copy" fill="#FFFFFF" transform="translate(714.000000, 681.240130) rotate(-12.812548) translate(-714.000000, -681.240130) "></line>
+                        <line x1="60.7346433" y1="649" x2="943.582539" y2="93.3109975" id="Line-2-Copy-2" transform="translate(501.734643, 371.000000) rotate(-12.812548) translate(-501.734643, -371.000000) "></line>
+                        <path d="M1408.61522,534.855354 C1408.61522,421.63698 1325.7879,329.855354 1223.61522,329.855354 C1121.44254,329.855354 1038.61522,421.63698 1038.61522,534.855354" id="Path" transform="translate(1223.615224, 432.355354) rotate(45.000000) translate(-1223.615224, -432.355354) "></path>
+                        <path d="M389,1031.24013 C389,918.021757 306.172679,826.24013 204,826.24013 C101.827321,826.24013 19,918.021757 19,1031.24013" id="Path-Copy" transform="translate(204.000000, 928.740130) rotate(-135.000000) translate(-204.000000, -928.740130) "></path>
+                    </g>
+                    <g id="Buttons" transform="translate(350.000000, 319.707107) rotate(-45.000000) translate(-350.000000, -319.707107) translate(82.500000, 269.207107)" fill="#FFFFFF">
+                        <g id="button" transform="translate(0.710065, 0.920310)">
+                            <rect id="Rectangle" x="0.265948332" y="0.48856628" width="92.6176471" height="29.1666667"></rect>
+                            <rect id="Rectangle" x="23.0747719" y="27.0833333" width="47" height="72.2222222"></rect>
+                        </g>
+                        <g id="button-copy" transform="translate(221.327381, 0.920310)">
+                            <rect id="Rectangle" x="0.265948332" y="0.48856628" width="92.6176471" height="29.1666667"></rect>
+                            <rect id="Rectangle" x="23.0747719" y="27.0833333" width="47" height="72.2222222"></rect>
+                        </g>
+                        <g id="button-copy-2" transform="translate(441.944697, 0.920310)">
+                            <rect id="Rectangle" x="0.265948332" y="0.48856628" width="92.6176471" height="29.1666667"></rect>
+                            <rect id="Rectangle" x="23.0747719" y="27.0833333" width="47" height="72.2222222"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g id="Oval-+-Oval-Copy-Mask" transform="translate(932.485281, 219.707107) rotate(45.000000) translate(-932.485281, -219.707107) translate(720.985281, 123.207107)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask-2" fill="#FFFFFF" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>
