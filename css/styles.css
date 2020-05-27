@@ -56,7 +56,7 @@ a:hover {
 /* Navigation Bar */
 
 .navbar {
-    padding: 0 0 55px;
+    padding: 0 0 35px;
     bottom: 20px;
 }
 
@@ -117,7 +117,9 @@ a:hover {
 }
 
 .iphone-mockup {
-    margin-left: 15%;
+    width: 130px;
+    margin-left: 35%;
+    padding-bottom: 27px;
 }
 
 .playstore-icon {
@@ -328,8 +330,7 @@ em {
     }
 
     .iphone-mockup {
-        width: 300px;
-        height: 300px;
+        width: 200px;
         margin-left: 0px;
         margin-top: 30px;
     }
@@ -435,8 +436,7 @@ em {
     }
 
     .iphone-mockup {
-        width: 300px;
-        height: 300px;
+        width: 100px;
         margin-left: 0px;
         margin-top: 30px;
     }
