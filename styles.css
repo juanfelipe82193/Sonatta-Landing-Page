@@ -1,0 +1,1066 @@
+
+body {
+    font-family: "Montserrat";
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    line-height: 1.3;
+    font-weight: 600;
+    color: white;
+}
+
+h3 {
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+
+p {
+    color: #8F8F8F;
+}
+
+h2 {
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+h4 {
+    font-family: "Montserrat";
+}
+
+hr {
+    width: 10%;
+    height: 0px;
+    opacity: 0.5;
+    border: 8px dotted grey;
+    border-top: none;
+    margin: none;
+}
+
+#title {
+    background-image: linear-gradient(135deg, #38E9D9 0%, #5E7AE8 100%);
+    opacity: 0.9;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 0 0 35px;
+    bottom: 20px;
+}
+
+.navbar-brand {
+    font-family: "Montserrat";
+    font-weight: Bold;
+    font-size: 1.9rem;
+    margin-right: 0px;
+    background-color: transparent !important;
+}
+
+.nav-item {
+    padding: 0 10px 0 10px;
+}
+
+.nav-link {
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+.navbar-collapse {
+    padding-top: 5px;
+}
+
+.brand-text {
+    padding-top: 5px;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(255, 255, 255) !important;
+}
+
+.hoverImages {
+    margin: 15px 1px 15px 1px;
+    float:left;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+}
+
+.hoverImages:hover {
+      cursor:pointer;
+      margin-top: 5px;
+}
+
+.fade-in {
+    animation: fadeIn ease 4s;
+    -webkit-animation: fadeIn ease 4s;
+    -moz-animation: fadeIn ease 4s;
+    -o-animation: fadeIn ease 4s;
+    -ms-animation: fadeIn ease 4s;
+}
+
+@keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+}
+  
+@-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+}
+  
+@-webkit-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+}
+  
+@-o-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+}
+  
+@-ms-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+  }
+}
+
+/* Icon 1 */
+
+.animated-icon1, .animated-icon2, .animated-icon3 {
+    width: 30px;
+    height: 20px;
+    position: relative;
+    margin: 0px;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+}
+    
+.animated-icon1 span, .animated-icon2 span, .animated-icon3 span {
+    display: block;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+}
+    
+.animated-icon1 span {
+    background: #e65100;
+}
+    
+.animated-icon2 span {
+    background: #e3f2fd;
+}
+    
+.animated-icon3 span {
+    background: #f3e5f5;
+}
+    
+.animated-icon1 span:nth-child(1) {
+    top: 0px;
+}
+    
+.animated-icon1 span:nth-child(2) {
+    top: 10px;
+}
+    
+.animated-icon1 span:nth-child(3) {
+    top: 20px;
+}
+    
+.animated-icon1.open span:nth-child(1) {
+    top: 11px;
+    -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    -o-transform: rotate(135deg);
+    transform: rotate(135deg);
+}
+    
+.animated-icon1.open span:nth-child(2) {
+    opacity: 0;
+    left: -60px;
+}
+    
+.animated-icon1.open span:nth-child(3) {
+    top: 11px;
+    -webkit-transform: rotate(-135deg);
+    -moz-transform: rotate(-135deg);
+    -o-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+}
+    
+/* Icon 3*/
+    
+.animated-icon2 span:nth-child(1) {
+    top: 0px;
+}
+    
+.animated-icon2 span:nth-child(2), .animated-icon2 span:nth-child(3) {
+    top: 10px;
+}
+    
+.animated-icon2 span:nth-child(4) {
+    top: 20px;
+}
+    
+.animated-icon2.open span:nth-child(1) {
+    top: 11px;
+    width: 0%;
+    left: 50%;
+}
+    
+.animated-icon2.open span:nth-child(2) {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+    
+.animated-icon2.open span:nth-child(3) {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+    
+.animated-icon2.open span:nth-child(4) {
+    top: 11px;
+    width: 0%;
+    left: 50%;
+}
+    
+/* Icon 4 */
+    
+.animated-icon3 span:nth-child(1) {
+    top: 0px;
+    -webkit-transform-origin: left center;
+    -moz-transform-origin: left center;
+    -o-transform-origin: left center;
+    transform-origin: left center;
+}
+    
+.animated-icon3 span:nth-child(2) {
+    top: 10px;
+    -webkit-transform-origin: left center;
+    -moz-transform-origin: left center;
+    -o-transform-origin: left center;
+    transform-origin: left center;
+}
+    
+.animated-icon3 span:nth-child(3) {
+    top: 20px;
+    -webkit-transform-origin: left center;
+    -moz-transform-origin: left center;
+    -o-transform-origin: left center;
+    transform-origin: left center;
+}
+    
+.animated-icon3.open span:nth-child(1) {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    top: 0px;
+    left: 8px;
+}
+    
+.animated-icon3.open span:nth-child(2) {
+    width: 0%;
+    opacity: 0;
+}
+    
+.animated-icon3.open span:nth-child(3) {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    top: 21px;
+    left: 8px;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+
+/* Download Buttons */
+
+.download-button {
+    margin: 12% 2% 0% 0;
+    padding: 0;
+
+}
+
+.iphone-mockup {
+    width: 130px;
+    margin-left: 35%;
+    padding-bottom: 27px;
+}
+
+.playstore-icon {
+    width: 170px;
+    height: 50px;
+}
+
+.appstore-icon {
+    width: 150px;
+}
+
+
+/* Features Section */
+
+#features{
+    padding: 7% 15%;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.icon {
+    color: #1980f7;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: rgb(5, 158, 51);
+}
+
+/* Testimonial Section */
+
+#testimonials {
+    background-color: #b2fcff;
+    text-align: center;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.testimonial-image {
+    width: 12%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+em {
+    color: rgb(90, 90, 90);
+}
+
+.carousel-control-prev {
+    padding-right: 100px;
+}
+
+.carousel-control-next {
+    padding-left: 100px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 100px;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 30px;
+  color: grey;
+  opacity: 0.7;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 30px;
+  color: grey;
+  opacity: 0.7;
+}
+
+/* Sponsors Section */
+
+#sponsors {
+    background-color: #b2fcff;
+    text-align: center;
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
+
+.sponsor-image {
+    margin-left: 30px;
+    margin-right: 30px;
+    opacity: 0.8;
+}
+
+
+.sponsor-title {
+    margin-bottom: 3%;
+}
+
+
+/* Pricing Section */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+    display: none;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/* Call to Action Section */
+
+#cta {
+    background-color: #5edfff;
+    color: rgb(41, 41, 41);
+    padding: 7% 15%;
+}
+
+.cta-heading {
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 3.0rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.download-container {
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.cta-button {
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+/* Footer Section */
+
+#footer {
+    padding: 2% 15%;
+    text-align: center;
+    background-color: #142850;
+}
+
+.footer-icon {
+    color: white;
+    margin: 20px 10px;
+    padding-bottom: 15px;
+}
+
+@media (max-width: 1028px) {
+
+    .brand-text {
+        display: none;
+    }
+
+    .appstore-icon {
+        width: 120px;
+    }
+
+    .playstore-icon {
+        width: 130px;
+        height: 40px;
+    }
+
+    .fade-in {
+        animation: fadeIn ease 4s;
+        -webkit-animation: fadeIn ease 4s;
+        -moz-animation: fadeIn ease 4s;
+        -o-animation: fadeIn ease 4s;
+        -ms-animation: fadeIn ease 4s;
+    }
+    
+    @keyframes fadeIn {
+        0% {
+          opacity:0;
+        }
+        100% {
+          opacity:1;
+        }
+    }
+      
+    @-moz-keyframes fadeIn {
+        0% {
+          opacity:0;
+        }
+        100% {
+          opacity:1;
+        }
+    }
+      
+    @-webkit-keyframes fadeIn {
+        0% {
+          opacity:0;
+        }
+        100% {
+          opacity:1;
+        }
+    }
+      
+    @-o-keyframes fadeIn {
+        0% {
+          opacity:0;
+        }
+        100% {
+          opacity:1;
+        }
+    }
+      
+    @-ms-keyframes fadeIn {
+        0% {
+          opacity:0;
+        }
+        100% {
+          opacity:1;
+      }
+    }
+
+
+}
+
+@media (max-width: 420px) {
+
+    #title {
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+        margin-bottom: 25px;
+    }
+
+    .navbar {
+        padding-bottom: 10px;
+    }
+    
+    .navbar-brand {
+        background-color: transparent !important;
+        margin-top: 20px;
+    }
+
+    .appstore-icon {
+        width: 110px;
+    }
+
+    .playstore-icon {
+        width: 120px;
+        height: 35px;
+    }
+
+    .download-button {
+        margin-top: 15px;
+    }
+
+    .iphone-mockup {
+        width: 200px;
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+
+    .feature-box {
+        font-size: 0.9rem;
+    }
+
+    .carousel-text {
+        font-size: 17px;
+    }
+
+    .testimonial-image {
+        width: 35%;
+    }
+
+    .carousel-control-next-icon:after {
+        content: none;
+        font-size: 30px;
+        color: grey;
+        opacity: 0.7;
+    }
+
+    .carousel-control-prev-icon:after {
+        content: none;
+        font-size: 30px;
+        color: grey;
+        opacity: 0.7;
+    }
+
+    .alcaldia-cali {
+        width: 80;
+    }
+
+    .camara-comercio-cali {
+        width: 130px;
+    }
+
+    .bgta-logo {
+        width: 100px;
+    }
+
+    .camara-comercio-bgta {
+        width: 130px;
+    }
+
+    .min-cultura {
+        width: 180px;
+        padding-bottom: 50px;
+        margin-top: 10px;
+    }
+
+    #pricing {
+        display: none;
+    }
+
+    .cta-heading {
+        font-size: 1.7rem;
+    }
+
+    .cta-button {
+        margin-bottom: 10px;
+    }
+
+    #footer {
+        padding-top: 15px;
+    }
+
+    .animated-icon1, .animated-icon2, .animated-icon3 {
+        width: 30px;
+        height: 20px;
+        position: relative;
+        margin: 0px;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transition: .5s ease-in-out;
+        -moz-transition: .5s ease-in-out;
+        -o-transition: .5s ease-in-out;
+        transition: .5s ease-in-out;
+        cursor: pointer;
+    }
+        
+    .animated-icon1 span, .animated-icon2 span, .animated-icon3 span {
+        display: block;
+        position: absolute;
+        height: 3px;
+        width: 100%;
+        border-radius: 9px;
+        opacity: 1;
+        left: 0;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transition: .25s ease-in-out;
+        -moz-transition: .25s ease-in-out;
+        -o-transition: .25s ease-in-out;
+        transition: .25s ease-in-out;
+    }
+        
+    .animated-icon1 span {
+        background: #e65100;
+    }
+        
+    .animated-icon2 span {
+        background: #e3f2fd;
+    }
+        
+    .animated-icon3 span {
+        background: #f3e5f5;
+    }
+        
+    .animated-icon1 span:nth-child(1) {
+        top: 0px;
+    }
+        
+    .animated-icon1 span:nth-child(2) {
+        top: 10px;
+    }
+        
+    .animated-icon1 span:nth-child(3) {
+        top: 20px;
+    }
+        
+    .animated-icon1.open span:nth-child(1) {
+        top: 11px;
+        -webkit-transform: rotate(135deg);
+        -moz-transform: rotate(135deg);
+        -o-transform: rotate(135deg);
+        transform: rotate(135deg);
+    }
+        
+    .animated-icon1.open span:nth-child(2) {
+        opacity: 0;
+        left: -60px;
+    }
+        
+    .animated-icon1.open span:nth-child(3) {
+        top: 11px;
+        -webkit-transform: rotate(-135deg);
+        -moz-transform: rotate(-135deg);
+        -o-transform: rotate(-135deg);
+        transform: rotate(-135deg);
+    }
+        
+    /* Icon 3*/
+        
+    .animated-icon2 span:nth-child(1) {
+        top: 0px;
+    }
+        
+    .animated-icon2 span:nth-child(2), .animated-icon2 span:nth-child(3) {
+        top: 10px;
+    }
+        
+    .animated-icon2 span:nth-child(4) {
+        top: 20px;
+    }
+        
+    .animated-icon2.open span:nth-child(1) {
+        top: 11px;
+        width: 0%;
+        left: 50%;
+    }
+        
+    .animated-icon2.open span:nth-child(2) {
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+        
+    .animated-icon2.open span:nth-child(3) {
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+    }
+        
+    .animated-icon2.open span:nth-child(4) {
+        top: 11px;
+        width: 0%;
+        left: 50%;
+    }
+        
+    /* Icon 4 */
+        
+    .animated-icon3 span:nth-child(1) {
+        top: 0px;
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        -o-transform-origin: left center;
+        transform-origin: left center;
+    }
+        
+    .animated-icon3 span:nth-child(2) {
+        top: 10px;
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        -o-transform-origin: left center;
+        transform-origin: left center;
+    }
+        
+    .animated-icon3 span:nth-child(3) {
+        top: 20px;
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        -o-transform-origin: left center;
+        transform-origin: left center;
+    }
+        
+    .animated-icon3.open span:nth-child(1) {
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        transform: rotate(45deg);
+        top: 0px;
+        left: 8px;
+    }
+        
+    .animated-icon3.open span:nth-child(2) {
+        width: 0%;
+        opacity: 0;
+    }
+        
+    .animated-icon3.open span:nth-child(3) {
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        top: 21px;
+        left: 8px;
+    }
+    
+    .navbar-toggler {
+        border: none;
+    }
+
+    .fade-in {
+        animation: fadeIn ease 4s;
+        -webkit-animation: fadeIn ease 4s;
+        -moz-animation: fadeIn ease 4s;
+        -o-animation: fadeIn ease 4s;
+        -ms-animation: fadeIn ease 4s;
+    }
+    
+    @keyframes fadeIn {
+        0% {
+          opacity:0;
+        }
+        100% {
+          opacity:1;
+        }
+    }
+      
+    @-moz-keyframes fadeIn {
+        0% {
+          opacity:0;
+        }
+        100% {
+          opacity:1;
+        }
+    }
+      
+    @-webkit-keyframes fadeIn {
+        0% {
+          opacity:0;
+        }
+        100% {
+          opacity:1;
+        }
+    }
+      
+    @-o-keyframes fadeIn {
+        0% {
+          opacity:0;
+        }
+        100% {
+          opacity:1;
+        }
+    }
+      
+    @-ms-keyframes fadeIn {
+        0% {
+          opacity:0;
+        }
+        100% {
+          opacity:1;
+      }
+    }
+
+}
+
+
+@media (max-width: 830px) {
+
+    #title {
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+        margin-bottom: 25px;
+    }
+
+    .navbar {
+        padding-bottom: 10px;
+    }
+    
+    .navbar-brand {
+        background-color: transparent !important;
+        margin-top: 20px;
+    }
+
+    .appstore-icon {
+        width: 110px;
+    }
+
+    .playstore-icon {
+        width: 120px;
+        height: 35px;
+    }
+
+    .download-button {
+        margin-top: 15px;
+    }
+
+    .iphone-mockup {
+        width: 100px;
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+
+    .feature-box {
+        font-size: 0.9rem;
+    }
+
+    .carousel-text {
+        font-size: 17px;
+    }
+
+    .testimonial-image {
+        width: 35%;
+    }
+
+    .carousel-control-next-icon:after {
+        content: none;
+        font-size: 30px;
+        color: grey;
+        opacity: 0.7;
+    }
+
+    .carousel-control-prev-icon:after {
+        content: none;
+        font-size: 30px;
+        color: grey;
+        opacity: 0.7;
+    }
+
+    .testimonial-image {
+        width: 120px;
+    }
+
+    .alcaldia-cali {
+        width: 80;
+    }
+
+    .camara-comercio-cali {
+        width: 130px;
+    }
+
+    .bgta-logo {
+        width: 100px;
+    }
+
+    .camara-comercio-bgta {
+        width: 130px;
+    }
+
+    .min-cultura {
+        width: 180px;
+        padding-bottom: 50px;
+    }
+
+    #pricing {
+        display: none;
+    }
+
+    .fade-in {
+        animation: fadeIn ease 4s;
+        -webkit-animation: fadeIn ease 4s;
+        -moz-animation: fadeIn ease 4s;
+        -o-animation: fadeIn ease 4s;
+        -ms-animation: fadeIn ease 4s;
+    }
+    
+    @keyframes fadeIn {
+        0% {
+          opacity:0;
+        }
+        100% {
+          opacity:1;
+        }
+    }
+      
+    @-moz-keyframes fadeIn {
+        0% {
+          opacity:0;
+        }
+        100% {
+          opacity:1;
+        }
+    }
+      
+    @-webkit-keyframes fadeIn {
+        0% {
+          opacity:0;
+        }
+        100% {
+          opacity:1;
+        }
+    }
+      
+    @-o-keyframes fadeIn {
+        0% {
+          opacity:0;
+        }
+        100% {
+          opacity:1;
+        }
+    }
+      
+    @-ms-keyframes fadeIn {
+        0% {
+          opacity:0;
+        }
+        100% {
+          opacity:1;
+      }
+    }
+}
+
+
+
+
+
+
+
+
+
